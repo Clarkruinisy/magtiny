@@ -39,3 +39,5 @@ require __DIR__ . "/../vendor/autoload.php";
 
 // magtiny\framework\Magtiny::startKernal();
 // magtiny\framework\Magtiny::startServer();
+
+(new app\controller\Index)->index();
