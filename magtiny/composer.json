@@ -1,0 +1,22 @@
+{
+	"name": "magtiny/magtiny",
+	"description": "The Magtiny Framework",
+	"keywords": ["framework", "magtiny"],
+	"license": "MIT",
+	"type": "project",
+	"authors": [
+		{
+			"name": "Clark Yanwei Zhao",
+			"email": "zhaoyanwei@shinetechchina.com",
+			"role": "developer"
+		}
+	],
+	"require": {
+		"php": ">=7.0.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"app\\": "application/"
+		}
+	}
+}
