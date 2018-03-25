@@ -4,6 +4,7 @@
 	"keywords": ["framework", "magtiny"],
 	"license": "MIT",
 	"type": "project",
+	"minimum-stability": "dev",
 	"authors": [
 		{
 			"name": "Clark Yanwei Zhao",
