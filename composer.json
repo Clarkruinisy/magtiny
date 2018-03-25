@@ -17,8 +17,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"app\\": "application/",
-			"magtiny\\": "vendor/magtiny/magtiny-framework/lib/"
+			"app\\": "application/"
 		}
 	},
 	"config": {
