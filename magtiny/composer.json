@@ -18,11 +18,5 @@
 		"psr-4": {
 			"app\\": "application/"
 		}
-	},
-	"repositories": [
-		{
-			"type": "git",
-			"url": "https://github.com/Clarkruinisy/magtiny/tree/master/magtiny"
-		}
-	]
+	}
 }
