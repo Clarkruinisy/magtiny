@@ -4,7 +4,6 @@
 	"keywords": ["framework", "magtiny"],
 	"license": "MIT",
 	"type": "project",
-    "minimum-stability": "dev",
 	"authors": [
 		{
 			"name": "Clark Yanwei Zhao",
@@ -13,7 +12,8 @@
 		}
 	],
 	"require": {
-		"php": ">=7.0.0"
+		"php": ">=7.0.0",
+		"magtiny/magtiny-framework": "dev-master"
 	},
 	"autoload": {
 		"psr-4": {

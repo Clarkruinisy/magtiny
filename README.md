@@ -1,4 +1,4 @@
-# Magtiny/magtiny
-Ahtuor: Clark Yanwei Zhao
-Email: zhaoyanwei@shinetechchina.com
+# magtiny/magtiny
+
+Ahtuor: Clark Yanwei Zhao <zhaoyanwei@shinetechchina.com>
 

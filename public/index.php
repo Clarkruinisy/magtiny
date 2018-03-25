@@ -1,5 +1,7 @@
 <?php
 
+define("MAGTINY_START_TIME", microtime(true));
+
 /*
 |--------------------------------------------------------------------------
 | Magtiny Framework
@@ -10,8 +12,7 @@
 |
 */
 
-define("MAGTINY_START_TIME", microtime(true));
-
+define("MAGTINY_APP_PATH", __DIR__);
 
 /*
 |--------------------------------------------------------------------------
@@ -26,7 +27,6 @@ define("MAGTINY_START_TIME", microtime(true));
 
 require __DIR__ . "/../vendor/autoload.php";
 
-
 /*
 |--------------------------------------------------------------------------
 | Run The Application
@@ -37,7 +37,5 @@ require __DIR__ . "/../vendor/autoload.php";
 |
 */
 
-// magtiny\framework\Magtiny::startKernal();
-// magtiny\framework\Magtiny::startServer();
-
-(new app\controller\Index)->index();
+magtiny\framework\magtiny::startKernal();
+magtiny\framework\magtiny::startServer();

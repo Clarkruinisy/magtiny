@@ -1,6 +1,6 @@
 <?php
 
 return [
-	"debug"			=> true,
-
+	"debug"				=> true,
+	"format"			=> "json",
 ];
