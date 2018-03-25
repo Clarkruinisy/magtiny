@@ -12,19 +12,17 @@
 			"role": "developer"
 		}
 	],
-	"repositories": [
-		{
-			"type": "git",
-			"url": "https://github.com/Clarkruinisy/magtiny"
-		}
-	],
 	"require": {
-		"php": ">=7.0.0",
-		"magtiny/magtiny": "dev-master"
+		"php": ">=7.0.0"
 	},
 	"autoload": {
 		"psr-4": {
 			"app\\": "application/"
 		}
+	},
+	"config": {
+		"preferred-install": "dist",
+		"sort-packages": true,
+		"optimize-autoloader": true
 	}
 }
