@@ -1,7 +1,5 @@
 <?php
 
-define("MAGTINY_START_TIME", microtime(true));
-
 /*
 |--------------------------------------------------------------------------
 | Magtiny Framework
@@ -12,7 +10,7 @@ define("MAGTINY_START_TIME", microtime(true));
 |
 */
 
-define("MAGTINY_APP_PATH", __DIR__);
+define("APP_START_TIME", microtime(true));
 
 /*
 |--------------------------------------------------------------------------
@@ -32,10 +30,8 @@ require __DIR__ . "/../vendor/autoload.php";
 | Run The Application
 |--------------------------------------------------------------------------
 |
-| We need to launch PHP development, so let us turn on kernal engine.
-| Then start project server.
+| We need to launch PHP development, so let us turn on server engine.
 |
 */
 
-magtiny\framework\magtiny::startKernal();
 magtiny\framework\magtiny::startServer();

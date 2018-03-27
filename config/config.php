@@ -2,5 +2,7 @@
 
 return [
 	"debug"				=> true,
-	"format"			=> "json",
+	"router"			=> ["index", "index"],
+	"filters" 			=> ['trim', 'addslashes', 'htmlentities'],
+	"response"			=> "json_encode",
 ];
