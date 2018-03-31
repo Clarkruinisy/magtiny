@@ -1,4 +1,4 @@
 # magtiny/magtiny
 
-Ahtuor: Clark Yanwei Zhao <zhaoyanwei@shinetechchina.com>
+Author: Clark Yanwei Zhao <zhaoyanwei@shinetechchina.com>
 
