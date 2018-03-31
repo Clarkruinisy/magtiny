@@ -1,6 +1,7 @@
 <?php
 
 return [
+	// framework exception
 	100		=> "系统配置文件不存在",
 	101		=> "配置文件参数不存在",
 	102		=> "模版变量传递参数格式不正确",
@@ -13,4 +14,6 @@ return [
 	109		=> "视图模版文件不存在",
 	110		=> "SESSION已经开启",
 	111		=> "SESSION尚未开启",
+
+	// app exception
 ];

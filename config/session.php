@@ -1,7 +1,7 @@
 <?php
 
 return [
-	"start"			=> false,
+	"start"			=> true,
 	"method"		=> "cookie",
 	"key"			=> "PHPSESSID",
 ];
