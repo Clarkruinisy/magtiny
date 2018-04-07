@@ -35,3 +35,4 @@ require __DIR__ . "/../vendor/autoload.php";
 */
 
 magtiny\framework\magtiny::startServer();
+

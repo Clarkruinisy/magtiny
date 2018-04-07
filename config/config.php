@@ -14,8 +14,6 @@ return [
 	"reportRunningStatus" 	=> true,
 	// Custom opening session automatically here.
 	"sessionAutoStart"		=> true,
-	// Custom is a cross-domain request.
-	"crossDomain"			=> false,
 	// Custom returns data format.
 	"contentType"			=> "text/html",
 	// Custom default router here.
