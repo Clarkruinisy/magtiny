@@ -9,7 +9,7 @@ class index extends model
 {
 	public function index ()
 	{
-		$sql = "SELECT `id`, `location` FROM `documents`";
-		return $this->query($sql)->fetchAll();
+		$sql = "SELECT UUID()";
+		return $this->query($sql)->fetchColumn();
 	}
 }
