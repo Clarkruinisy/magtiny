@@ -13,7 +13,6 @@
 	],
 	"require": {
 		"php": ">=7.0.0",
-		"magtiny/api-manager": "dev-master",
 		"magtiny/magtiny-framework": "dev-master"
 	},
 	"autoload": {
